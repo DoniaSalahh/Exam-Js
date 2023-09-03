@@ -1,0 +1,60 @@
+body{
+    background-color: #0D0D0D;
+    color: #f9f6f6 !important;
+}
+/* strat nav menu */
+
+.nav-menu{
+    z-index: 100;
+}
+.nav-menu .menu{
+    background-color: #0D0D0D;
+    color: #fff;
+}
+.nav-header img{
+    width: 50px;
+}
+.nav-header {
+    background-color: #f9f6f6;
+}
+.nav-header .bars{
+    font-size: 30px;
+    color: #0D0D0D;
+}
+.link{
+    cursor: pointer;
+}
+/* end nav menu */
+/* search inputs */
+input::placeholder{
+    color: #f9f6f6 !important;
+    font-size: 13px;
+}
+.loading{
+    z-index: 33;
+    background-color: #0D0D0D;
+    position:absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.meal{
+    position:relative;
+    overflow:hidden;
+    cursor:pointer;
+}
+.layer{
+    width: 100%;
+    height: 100%;
+    top: 100%;
+    transition: 0.4s;
+    background-color: #f9f6f6ca;
+}
+    
+.meal:hover .layer{
+    top: 0;
+}
+.load{
+    display: flex;
+    z-index: 10000;
+}

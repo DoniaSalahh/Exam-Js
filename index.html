@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yummy</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- <div class="load position-fixed  bg-black justify-content-center align-items-center top-0 start-0 end-0 bottom-0">
+        <i class="fa fa-spinner fa-spin fa-5x"></i>
+    </div> -->
+    <!-- strat nav menu -->
+    <div class="nav-menu min-vh-100 position-fixed d-flex top-0">
+        <div class="menu d-flex justify-content-between flex-column min-vh-100 p-4">
+            <div class="links">
+                <ul class="list-unstyled overflow-hidden">
+                    <li class="mb-3 link"  onclick="showinputsearch(); closenav()">Search</li>
+                    <li class="mb-3 link" onclick="categories(); closenav()">Categories</li>
+                    <li class="mb-3 link" onclick="area(); closenav()">Area </li>
+                    <li class="mb-3 link" onclick="ingredients(); closenav()">Ingredients</li>
+                    <li class="mb-3 link" onclick="contactdata(); closenav()">Contact Us</li>
+                </ul>
+            </div>
+            <div class="nav-footer">
+                <div class="icons">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-solid fa-globe"></i>
+                </div>
+                <div class="footer mt-2">
+                    Copyright Â &copy; 2019 All Rights <br>Reserved.
+                </div>
+            </div>
+        </div>
+        <div class="nav-header d-flex justify-content-between flex-column min-vh-100 p-3">
+            <img src="images/logo.png" alt="logo">
+            <i class="fa-solid fa-align-justify bars fa-2x close-open" id="bars"></i>
+            <div class="icon d-flex flex-column">
+                <i class="fa-solid fa-globe mb-3 text-dark"></i>
+                <i class="fa-solid fa-share-nodes text-dark"></i>
+            </div>
+        </div>
+    </div>
+    <!-- end nav menu -->
+    <!--start search inputs -->
+    <div class="container" id="searchinput">
+    </div>
+    <!-- end search inputs -->
+    <div class="demo position-relative min-vh-100">
+        <!-- <div class="loading  top-0 bottom-0 end-0 start-0 ">
+            <i class="fa fa-spinner fa-spin fa-5x"></i>
+        </div> -->
+        <div class="container">
+        <div class="row py-3" id="data">
+        </div>
+    </div>
+    </div>
+    <script src="js/code.jquery.com_jquery-3.7.0.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
